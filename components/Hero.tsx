@@ -14,7 +14,6 @@ import Pyramid from "@/public/images/pyramid.png";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import MorphingText from "./ui/morphing-text";
-import SparklesText from "./ui/sparkles-text";
 
 export default function Hero() {
   const texts = ["Full Stack Developer", "ML Enthusiast"];

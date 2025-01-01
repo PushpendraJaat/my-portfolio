@@ -46,7 +46,7 @@ const SocialLink = ({
 }: {
   href: string;
   displayText: string;
-  Icon: any;
+  Icon: React.ComponentType;
   isEmail: boolean;
 }) => (
   <div className="flex items-center gap-2">
