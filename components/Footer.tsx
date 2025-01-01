@@ -46,7 +46,7 @@ const SocialLink = ({
 }: {
   href: string;
   displayText: string;
-  Icon: React.ComponentType;
+  Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
   isEmail: boolean;
 }) => (
   <div className="flex items-center gap-2">
@@ -55,7 +55,7 @@ const SocialLink = ({
       target="_blank"
       className="flex items-center gap-2 hover:text-white hover:underline"
     >
-      <Icon className="size-5" />
+      <Icon className="size-5"/>
       <div className={isEmail ? "break-all" : ""}>{displayText}</div>
     </Link>
   </div>
