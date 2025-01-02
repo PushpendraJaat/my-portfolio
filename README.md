@@ -104,9 +104,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 Let’s connect! You can reach me at:
 
-- **Email:** [your-email@example.com](mailto:pushpendrajaat2001@gmail.com)
-- **LinkedIn:** [linkedin.com/in/your-profile](https://linkedin.com/in/pushpendrajaat)
-- **Twitter:** [@yourhandle](https://x.com/thepushpendra)
+- **Email:** [pushpendrajaat2001@gmail.com](mailto:pushpendrajaat2001@gmail.com)
+- **LinkedIn:** [linkedin.com/in/pushpendrajaat](https://linkedin.com/in/pushpendrajaat)
+- **Twitter:** [@thepushpendra](https://x.com/thepushpendra)
 
 ---
 
