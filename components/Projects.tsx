@@ -3,6 +3,7 @@ import Image from "next/image";
 import Shop from "@/public/images/shop.jpeg";
 import Youtube from "@/public/images/youtube-backend.jpeg";
 import Blog from "@/public/images/blog.jpeg";
+import AICody from "@/public/images/ai-cody.jpeg"
 import Link from "next/link";
 
 const projects = [
@@ -42,6 +43,15 @@ const projects = [
       "JavaScript",
       "Tailwind CSS",
     ],
+  },
+  {
+    title: "AI-Powered Python Tutor 🐍🤖",
+    description:
+      "An interactive chat-based learning platform featuring AI tutors that teach Python dynamically. Built with Next.js and Google Gemini AI, it offers real-time code challenges, progress tracking with badges, and an intuitive UI using shadcn/ui. Optimized for seamless learning with debounced API requests and error-handling improvements.",
+    image: AICody,
+    liveLink: "https://skc-pushpendra-jaat-ai-powered-python-tutor.vercel.app/",
+    githubLink: "https://github.com/PushpendraJaat/ai-powered-python-tutor",
+    tags: ["Next.js", "Google Gemini AI", "NextAuth",  "Shadcn", "MongoDB", "TypeScript", "Tailwind CSS"],
   },
 
   {
