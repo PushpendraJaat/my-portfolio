@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pushpendra Jaat - Web Developer Portfolio",
     description: "Explore the portfolio of Pushpendra Jaat, featuring professional web development projects and expertise.",
-    url: "",
+    url: "https://pushpendrajaat.vercel.app/",
     type: "website",
     images: [
       {
