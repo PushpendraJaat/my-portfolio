@@ -9,13 +9,13 @@ const About: React.FC = () => {
           About Me
         </h2>
         <p className="mt-4 text-neutral-200 mx-auto text-base xl:text-lg font-medium">
-          I’m a <b>full-stack developer based in Bhopal</b>.
-          I’m currently honing my skills while working on projects using
-          <b> React, Express, MongoDB, Node.js, JavaScript, Django, and Python</b>. From building e-commerce platforms like
-          <b> Online Shopping Store</b> to creating a compelete backend project like <b>YouTube</b>, I enjoy solving complex problems with innovative solutions. I’m passionate about learning
-          new technologies and pushing the boundaries of what’s possible, always aiming to create
-          user-friendly, scalable applications.
+        I&apos;m a <strong>full-stack developer with AI</strong> specializing in building robust, scalable, and user-friendly applications.
+    Currently, I&apos;m working on cutting-edge projects using
+    <strong> Next.js, React, Tailwind CSS, Node.js, Express, MongoDB, TypeScript, and Python</strong>.
+    Whether it&apos;s developing dynamic web applications, crafting secure APIs, or integrating modern UI/UX designs with Framer Motion,
+    I thrive on solving complex problems with innovative solutions. I&apos;m passionate about continuously learning new technologies and pushing the boundaries of what&apos;s possible. 
         </p>
+        <p><strong>Available immediately for full-time and freelance opportunities across India.</strong></p>
       </WobbleCard>
     </div>
   );

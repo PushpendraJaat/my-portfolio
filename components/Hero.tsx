@@ -16,7 +16,7 @@ import Link from "next/link";
 import MorphingText from "./ui/morphing-text";
 
 export default function Hero() {
-  const texts = ["Full Stack Developer", "ML Enthusiast"];
+  const texts = ["Full Stack Developer", "ML/AL Enthusiast"];
 
   return (
     <div className="h-screen relative bg-[#0e0e0e] overflow-hidden flex flex-col items-center justify-center px-4">

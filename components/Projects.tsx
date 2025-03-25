@@ -4,6 +4,7 @@ import Shop from "@/public/images/shop.jpeg";
 import Youtube from "@/public/images/youtube-backend.jpeg";
 import Blog from "@/public/images/blog.jpeg";
 import AICody from "@/public/images/ai-cody.jpeg"
+import Silent from "@/public/images/silent-feedback.jpeg"
 import Link from "next/link";
 
 const projects = [
@@ -15,7 +16,7 @@ const projects = [
     liveLink: "",
     githubLink: "https://github.com/PushpendraJaat/videos-app-backend-like-youtube",
     tags: [
-      "MERN",
+      "Express",
       "Multer",
       "JWT",
       "JavaScript",
@@ -24,6 +25,27 @@ const projects = [
       "Tailwind CSS",
       "Cloudinary",
       "Cookie Parser"
+    ],
+  },
+  {
+    title: "Silent Feedback: Anonymous Messaging & Feedback Platform",
+    description:
+      "A full-stack web application that empowers organizations, educational institutions, and communities to collect honest, anonymous feedback. Silent Feedback offers a seamless user experience with modern design, robust security features, and real-time AI-generated message suggestions, ensuring privacy and enhancing communication across diverse environments.",
+    image: Silent,
+    liveLink: "https://silent-feedback.pushpendrajaat.in/",
+    githubLink: "https://github.com/PushpendraJaat/Silent-Feedback",
+    tags: [
+      "Next.js",
+      "NextAuth",
+      "React",
+      "React Hook Form",
+      "TypeScript",
+      "Axios",
+      "Postman",
+      "Resend API integration",
+      "Tailwind CSS",
+      "Gemini AI integration",
+      "Shadcn"
     ],
   },
 
@@ -51,7 +73,7 @@ const projects = [
     image: AICody,
     liveLink: "https://skc-pushpendra-jaat-ai-powered-python-tutor.vercel.app/",
     githubLink: "https://github.com/PushpendraJaat/ai-powered-python-tutor",
-    tags: ["Next.js", "Google Gemini AI", "NextAuth",  "Shadcn", "MongoDB", "TypeScript", "Tailwind CSS"],
+    tags: ["Next.js", "Google Gemini AI", "NextAuth", "Shadcn", "MongoDB", "TypeScript", "Tailwind CSS"],
   },
 
   {
