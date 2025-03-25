@@ -9,23 +9,30 @@ import Link from "next/link";
 
 const projects = [
   {
-    title: "YouTube-like Video Sharing Platform Backend",
+    title: "Video Sharing Platform Backend like - youtube ",
     description:
-      "A secure video-sharing platform backend built with Node.js, Express.js, and Mongoose. This project features dynamic video management, detailed video pages, and user interaction functionalities, enhancing user engagement and efficiency. It includes secure user authentication, encrypted password storage, and cloud storage integration, ensuring a robust and scalable backend solution.",
+      "A robust backend service for a video-sharing platform inspired by YouTube, built with Node.js and Express. It provides core functionalities such as user authentication, video upload/management, comments, likes, subscriptions, and search. The API supports scalable video content handling, secure user sessions with JWT, and seamless integration with MongoDB for data persistence.",
     image: Youtube,
-    liveLink: "",
+    liveLink: "https://documenter.getpostman.com/view/39260913/2sAYkKHxMm",
     githubLink: "https://github.com/PushpendraJaat/videos-app-backend-like-youtube",
-    tags: [
-      "Express",
-      "Multer",
+    tags: ["Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
       "JWT",
-      "JavaScript",
+      "REST API",
+      "Authentication",
+      "Authorization",
+      "bcrypt",
+      "Multer",
+      "File Uploads",
+      "Error Handling",
+      "Middleware",
+      "Pagination",
+      "Cloud Storage Integration",
       "Postman",
-      "bcryptjs",
-      "Tailwind CSS",
-      "Cloudinary",
-      "Cookie Parser"
-    ],
+      "dotenv",
+      "CORS"],
   },
   {
     title: "Silent Feedback: Anonymous Messaging & Feedback Platform",
