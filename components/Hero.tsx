@@ -3,7 +3,7 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import DownloadResume from "./ui/DownloadResume";
+// import DownloadResume from "./ui/DownloadResume";
 import Image from "next/image";
 import BGimage from "@/public/images/background.jpg";
 import { GridBeam } from "./ui/GridBeam";
@@ -16,7 +16,7 @@ import Link from "next/link";
 import MorphingText from "./ui/morphing-text";
 
 export default function Hero() {
-  const texts = ["Full Stack Developer", "ML/AL Enthusiast"];
+  const texts = ["Full Stack Developer", "ML/AL Engineer"];
 
   return (
     <div className="h-screen relative bg-[#0e0e0e] overflow-hidden flex flex-col items-center justify-center px-4">
@@ -26,9 +26,9 @@ export default function Hero() {
         className="absolute md:top-1/2 bottom-0"
       />
 
-      <div className="absolute top-8 right-8 z-10">
+      {/* <div className="absolute top-8 right-8 z-10">
         <DownloadResume />
-      </div>
+      </div> */}
 
       <div className="">
         <motion.img

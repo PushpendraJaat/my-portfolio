@@ -15,7 +15,6 @@ const About: React.FC = () => {
     Whether it&apos;s developing dynamic web applications, crafting secure APIs, or integrating modern UI/UX designs with Framer Motion,
     I thrive on solving complex problems with innovative solutions. I&apos;m passionate about continuously learning new technologies and pushing the boundaries of what&apos;s possible. 
         </p>
-        <p><strong>Available immediately for full-time and freelance opportunities across India.</strong></p>
       </WobbleCard>
     </div>
   );
